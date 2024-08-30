@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job cell Placement</title>
+    <style>
+        .header{
+            background-color:black;
+            text-align: right;
+            color:#fff;
+            flex:wrap;
+        }
+        .title{
+            font-family: Helvetica,Arial, sans-serif
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            height:100px;
+        }
+        .login{
+            height: 50px;
+            width: 70px;
+            font-size: 18px;
+            background-color: rgb(41, 49, 103);
+            color: white;
+        }
+        
+        .image{
+            height: 30px;
+        }
+       .box{
+        flex: 1;
+        height: 200px;
+        width: 250px;
+        border: 2px solid #ccc;
+        cursor: pointer;
+       }
+       .row1 {
+        display: flex;
+            border: 2px solid black;
+            flex:wrap;
+
+       }
+       .row2 {
+        display: flex;
+            border: 2px solid black;
+            flex:wrap;
+       }
+       .button{
+        margin-left: 340px;
+        margin-top: 140px;
+        width: 84px;
+        height: 45px;   
+        color: rgb(128, 15, 15);   
+        font-size:14px;
+        font-weight:700;
+        flex:1
+       }
+       .Required{
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        flex:wrap;
+       }
+       .option{
+        text-align: right;
+        cursor: pointer;
+       }
+      .input{
+        padding: 10px;
+        font-size: 15px;
+        justify-content: center;
+        background-clip: padding-box;
+        box-shadow: 0 0 10px #520ac7;
+      }
+       .search-button {
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        background-color: #520ac7;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+        .input-field{
+            padding:10px;
+            width:400px;
+            background-clip: padding-box;
+            box-shadow: 0 0 10px #520ac7;
+        }
+        .companies{
+            justify: flex;
+            padding:20px;
+            border:2px solid;
+            align-items: center;
+            flex-wrap: wrap;
+            width:270px;
+            height:300px;
+        }
+        .section{
+            display: flex;
+        }
+      
+      
+        .success-story{
+            position: relative;
+            overflow: hidden;
+            padding: 40px;
+        }
+        .students{
+            padding: 0px;
+            font-size: 30px;
+            font-weight:500px;
+            margin-bottom:40px;
+            text-transform:capitalize;
+        }
+        .slides{
+            padding:0px;
+            display: flex;
+            scroll-behavior: smooth;
+
+        }
+        .slide{
+            flex: 0 0 auto;
+            width: 250px;
+            height:450px;
+            margin-right:40px;
+        }
+        .photo{
+            position:relative;
+            width:100%;
+            height:350px;
+           object-fit:cover;
+        }
+        .slide:hover{
+            opacity:1;
+        }
+        .slide-button{
+            border:none;
+            width: 10vw;
+            height:100px;
+            position: absolute;
+            top:0px;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+
+
+        }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+    <header class="header">
+        <div class="contact">
+            <span>Email:abc@westcliff.com</span> &nbsp;
+            <span>Phone: 01-5244306</span>         
+        </div>
+    </header>
+    <div class="flex">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ5E3sniJ8O9NrdHOzpjWp-bWCgu2TJhtD3g&s" class="logo">
+        <H1 class="title">Job cell placement</H1>
+        <div class="login">
+             <button class="login">Login</button>
+        </div>
+    </div>
+
+    </div>
+    <br>
+    <div class="Required">
+        <div class="option">Home</div>
+        <div class="option">Internships</div>
+        <div class="option">Training</div>
+    </div>
+    <br>
+    <div class="search-bar">
+        <input type="text" placeholder="Job Title" class="input-field">
+        <select class="input">
+            <option value="" disabled selection>Job catogory</option>
+            <option value="select">Data and Analytics</option>
+            <option value="select">Network and System Administration</option>
+            <option value="select">Cybersecurity</option>
+            <option value="select">Project Management</option>
+        </select>
+        <button class="search-button">Search</button>
+    </div>
+    <br>
+
+    <h2>Current Jobs Available</h2>
+    
+    <div class="row1">
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+        <div class="box">
+            <button class="button">Apply Now</button>
+        </div>
+    </div>
+    <div class="section">
+        <div class="success-story">
+            <h2 class="students">Student Success Stories</h2>
+            <div class="container">
+                <div class="slides">
+                    <div class="slide">
+                        <h2>success story 1</h2>
+                        <img src="https://img.freepik.com/premium-vector/blue-color-wave-abstrack-background-design_805663-116.jpg" class="photo">
+                    </div>
+                    <div class="slide">
+                        <h2>Success story 2</h2>
+                        <img src="https://htmlcolorcodes.com/assets/images/colors/green-color-solid-background-1920x1080.png" class="photo">
+                    </div>
+                    <div class="slide">
+                        <h2>success story 3</h2>
+                        <img src="https://img.freepik.com/free-photo/abstract-solid-shining-yellow-gradient-studio-wall-room-background_1258-70808.jpg" class="photo">
+                    </div>
+                </div>
+                
+                <div class="slide-button">
+                        <button class="previous-button">&#10094;</button>
+                        <button class="next-button">&#10095;</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Top Companies</h2>
+            <div class="companies"></div>
+        </div>
+    </div>
+    </section>
+</div>
+    <script>
+        var sliderImages = document.querySelectorAll('.slider');
+
+var i = 0;
+
+function slides(){
+  for(var j = 0; j < sliderImages.length; j++){
+    sliderImages[j].style.opacity = 0;
+  }
+  sliderImages[i].style.opacity = 1;
+
+  if(i < sliderImages.length - 1){
+    i++; 
+  } else { 
+    i = 0;
+  }
+
+}
+        
+        </script>
+  </body>
+</html>
