@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /* Primary Colors */
+  --primary-light: #ffffff;
+  --primary-light2: #f2f2f2; /* Lighter shade of primary light */
+  --primary-light3: #666666; 
+
+  --primary-dark: #000000;
+  --primary-dark2: #1a1a1a; /* Darker shade of primary dark */
+  --primary-dark2: #333333; 
+
+  /* Secondary Colors */
+  --secondary-light: #4d73ff; /* Lighter secondary */
+  --secondary-dark: #0019ff; /* Darker secondary */
+
+  /* Tertiary Color */
+  --tertiary: #4dd9f2;
+  --tertiary2: #5bf24d;
+
+  /* Theme Colors */
+  --theme-light: #ffa300; /* Lighter theme color */
+  --theme-dark: #ff4200; /* Darker theme color */
+
+  /* Border Colors */
+  --border-color: #cccccc;
+  --border-color2: #dddddd;
+
+  /* Font */
+  --font-family-primary: "Poppins", sans-serif;
+  --font-family-secondary: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+  
+}
+
+body {
+  padding: 5px 42px 5px 42px;
+
+  /* background-color: var(--tertiary); */
+}
+
+.button {
+  background: var(--theme-light);
+  color: var(--primary-light2);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link rel="stylesheet" href="CSS/cardSection.css" />
+    <link rel="stylesheet" href="CSS/footerSection.css" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Assets/logos/Presidential_Graduate_School_Logo-No-Bg.png"
+    />
+    <title>Job Cell || Presidential Graduate School</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="headerSection">
+      <marquee behavior="scroll" direction="left">
+        <span class="email">
+          Email: example.@email.com, example1.@email.com</span
+        >
+        <span class="phone"> Phone: 9800000000 </span>
+      </marquee>
+
+      <div class="titleSection">
+        <div class="logo">
+          <img
+            src="Assets/logos/Presidential Graduate School Logo.svg"
+            alt=""
+          />
+        </div>
+        <h1 class="title">Job Cell</h1>
+        <div class="loginButton">
+          <a href="#"><button class="button">Login</button></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="navBar">
+      <div class="navList">
+        <a href="home.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="internships.html" class="active">Internships</a>
+        <a href="traineeships.html">Traineeships</a>
+      </div>
+
+      <div class="searchSection">
+        <input type="text" name="" id="" placeholder="Search by Title" />
+        <select name="type" id="">
+          <option value="all">All</option>
+          <option value="option1">AI & Machine Learning</option>
+          <option value="option2">Cyber Security</option>
+          <option value="option4">Web & Software</option>
+          <option value="option3">Multimedia</option>
+          <option value="option5">Digital Markting</option>
+          <option value="option5">Business</option>
+          <option value="option5">Others</option>
+        </select>
+        <button class="button">Search</button>
+      </div>
+    </nav>
+
+    <!-- Card Section -->
+    <div class="cardSection">
+      <div class="sectionTitle">
+        <h1>Currently Avilable</h1>
+      </div>
+      <div class="cards" id="cards">
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h4>About Us</h4>
+              <p>We are a job cell dedicated to connecting job seekers with top companies.</p>
+          </div>
+          <div class="footer-section">
+              <h4>Quick Links</h4>
+              <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li>  <a href="jobs.html">Jobs</a></li>
+                  <li><a href="internships.html">Internships</a></li>
+                  <li><a href="traineeships.html">Traineeships</a></li>
+                
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h4>Follow Us</h4>
+              <ul class="social-media">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                  <li><a href="#">Instagram</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h4>Contact Us</h4>
+              <p>Email: support@jobcell.com</p>
+              <p>Phone: +1 234 567 890</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2024 Job Cell. All rights reserved.</p>
+      </div>
+  </footer>
+
+    <script src="Scripts/cardScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+/* ===== Header Section ===== */
+
+.headerSection {
+  height: 132px;
+}
+
+.headerSection marquee {
+  height: 32px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-dark3);
+}
+
+.headerSection marquee .phone {
+  margin-left: 50px;
+}
+
+.headerSection .titleSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.headerSection .titleSection .logo {
+  display: flex;
+  align-items: center;
+  width: 220px;
+}
+
+.headerSection .titleSection .logo img {
+  height: 80px;
+}
+
+.headerSection .titleSection .title {
+  color: var(--secondary-light);
+}
+
+.headerSection .titleSection .loginButton {
+  width: 220px;
+  display: flex;
+  justify-content: end;
+  height: 42x;
+}
+
+.headerSection .titleSection .loginButton a button {
+  height: 42px;
+  width: 100px;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+  color: var(--theme-dark);
+  border: 2px solid var(--theme-dark);
+}
+
+.headerSection .titleSection .loginButton a button:hover  {
+  color: var(--primary-light);
+  background-color: var(--theme-dark);
+}
+
+/* ===== Navigation Section ===== */
+
+.navBar {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.navBar .navList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  height: 42px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.navBar .navList a {
+  padding: 6px 20px;
+  border-radius: 8px;
+  border: 2px solid var(--secondary-dark);
+  
+  text-decoration: none;
+  color: var(--primary-dark2);
+  
+  font-size: 16;
+  font-weight: 500;
+}
+
+.navBar .navList .active {
+  background-color: var(--secondary-dark);
+  color: var(--primary-light2);
+}
+
+/* .navBar .navList a:active{
+  background-color: var(--secondary-dark);
+  color: var(--primary-light2);
+} */
+
+
+
+/* ===== Search Section ===== */
+
+.navBar .searchSection {
+  font-size: 16;
+  margin-left: 120px;
+  height: 42px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar .searchSection input {
+  width: 250px;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 16;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid var(--secondary-light);
+}
+
+.navBar .searchSection select {
+  width: 220px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 16;
+  font-weight: 500;
+  border: 2px solid var(--secondary-light);
+  outline: none;
+}
+
+.navBar .searchSection button {
+  padding: 8px 20px;
+  border-radius: 12px;
+  font-size: 16;
+  font-weight: 500;
+  background: var(--secondary-light);
+  color: var(--primary-light2);
+}
+
