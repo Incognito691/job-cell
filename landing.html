@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PGS - Job Portal</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <img
+          src="https://presidential.edu.np/file-manager/photos/1/logo.svg"
+          alt="Company Logo"
+          class="logo"
+        />
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="admin.html" target="_blank">Post a job</a></li>
+          </ul>
+        </div>
+        <a href="login.html" target="_blank"
+          ><button class="login-btn">Login</button></a
+        >
+      </nav>
+    </div>
+
+    <div class="container">
+      <h1>Find your dream job</h1>
+      <p>Use our smart job search to find a job easily</p>
+    </div>
+
+    <div class="job-search-form">
+      <div class="input-wrapper">
+        <input
+          type="text"
+          name="job-title"
+          id="job-title"
+          placeholder="Job Title"
+        />
+      </div>
+      <div class="select-wrapper">
+        <select name="experience" id="experience">
+          <option value="" disabled selected>Experience</option>
+          <!-- Add more options here -->
+        </select>
+      </div>
+      <div class="select-wrapper">
+        <select name="location" id="location">
+          <option value="" disabled selected>Location</option>
+          <!-- Add more options here -->
+        </select>
+      </div>
+      <button class="find-job-btn">Find a Job</button>
+    </div>
+
+    <section class="job-data">
+      <h1>Recommended Jobs</h1>
+      <div id="job-list"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-container">
+          <div class="col">
+            <a href="#" class="footer-logo">
+              <img
+                src="https://presidential.edu.np/file-manager/photos/1/logo.svg"
+                alt="Logo"
+              />
+            </a>
+            <ul class="media-icons">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col contact-info">
+            <ul class="menu">
+              <li>
+                <h4>Contact us:</h4>
+                <span>01-5244306</span>
+                <span>01-5245006</span>
+                <span>9767658631</span>
+                <span>9841343705</span>
+
+                <h4>Email:</h4>
+                <span>ainfo@presidential.edu.np</span>
+                <h4>Location:</h4>
+                <span
+                  >Bhakti Thapa Sadak, Thapagaun, New Baneshwor, Kathmandu
+                  44600</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="displayJobs.js"></script>
+  <script src="removeJob.js"></script>
+</html>
